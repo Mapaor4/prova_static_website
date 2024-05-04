@@ -1,0 +1,68 @@
+
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: 
+  space-around;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0em 0em 2px 0em;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: rgba(0,0,0,.87);
+  font-feature-settings: "kern","liga";
+}
+
+
+.caixa{
+  position:relative;
+  line-height: 1.6;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12),0 3px 1px -2px rgba(0,0,0,.2);
+  margin: 0.1rem 0.7rem 0.1rem 0.7rem;
+  padding: 0 .6rem;
+  border-left: 0.3em solid;
+  border-radius: .2em;
+  overflow: auto;
+  font-size: 0.75rem;
+  border-left-color: #4fe10e; /* CANVIAR */
+}
+
+
+/* TITOL */
+.caixa > .titol{
+  background-color: #e3ffdd; /* CANVIAR */
+
+  margin: 0 -.6rem;
+  padding: .4rem .6rem .4rem 1.0em;
+  /*MODIFICAR EL ÚLTIM 2rem*/
+  border-bottom: .05rem solid;
+  border-bottom-color: rgba(31, 255, 61, 0.1); /* CANVIAR */
+  
+  font-weight: 700;  
+}
+
+
+
+/* ICONA */
+.caixa > .titol::before{
+  margin-right: 0.3em;
+  position: relative;
+  right: 0.1em;
+  top: 0.2em;
+  color: #4fe10e; /* CANVIAR */
+  font-size: 1.6em;
+  font-family: "Material Icons";
+  content: "\e838"; /* CANVIAR */
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1rem;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr; 
+}
+
+
