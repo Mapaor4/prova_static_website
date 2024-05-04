@@ -2,6 +2,17 @@
 Aquesta és la prova d'intentar crear una web estàtica a partir de continguts exportats de Notion (ja sigui amb HTML o Markdown, el que funcioni millor).
 ## Link web publicada
 [Clicar aquí per anar a la web](https://mapaor4.github.io/prova_static_website/nav.html)
+## Proves
+Estil en general funciona prou bé, els links funcionen també. Veure [Funció gamma](https://mapaor4.github.io/prova_static_website/funcio_gamma.html).
+Nota 1: El custom vídeo (i imagino que amb les imatges passarà el mateix) s'ha de modificar l'html per tal de incloure'l
+Nota 2: La separació entre els toggle headings 1 és massa petita, s'hauria de modificar.
+**Objectiu a la vista**: 
+- *Aconseguir distingir fàcilment quina part és CSS i quina és HTML.*
+- *Fer un estil CSS genèric per tots els fitxers (tipografia disseny etc).*
+- *Aconseguir simplificar la part de Katex de manera que no calgui estar a cada fitxer HTML sinó en un genèric javascript*
+- *Mirar si un cop conegut el CSS, al importar des de Markdown es pot simplificar i aconseguir que quedi el mateix look*
+Al final l'ideal seria: Una persona random fa una pàgina en Notion, li dona a exportar Markdown i l'afageix a un repositori de Github. Automàticament aquesta queda amb un bon disseny i linkada a les altres.
+Nota xula: de veritat que estic flipant que funcioni tot tan bé i sigui tan fàcil.
 ## Procés que hauria d'anar fent
 1. Posar un fitxer html senzill
 2. Publicar-ho a lo github pages
