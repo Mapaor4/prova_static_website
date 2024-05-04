@@ -11,7 +11,8 @@ Nota 2: La separació entre els toggle headings 1 és massa petita, s'hauria de 
 - *Fer un estil CSS genèric per tots els fitxers (tipografia disseny etc).*
 - *Aconseguir simplificar la part de Katex de manera que no calgui estar a cada fitxer HTML sinó en un genèric javascript*
 - *Mirar si un cop conegut el CSS, al importar des de Markdown es pot simplificar i aconseguir que quedi el mateix look*
-Al final l'ideal seria: Una persona random fa una pàgina en Notion, li dona a exportar Markdown i l'afageix a un repositori de Github. Automàticament aquesta queda amb un bon disseny i linkada a les altres.
+- *Markdown és per visualitzar des de Github o des de Jupyter o des de [MkDocs](https://www.mkdocs.org/user-guide/deploying-your-docs/). No sembla que es puguin posar toggle headings i no sé perquè moltes expressions matemàtiques no semblen renderitzar (malgrat moltes altres sí). Tot i així em sona que sí haurien de ser possibles els toggles normals, i ja miraré si es pot posar embeds, que no fa pinta. De moment pinta que lo xulo és HTML i Markdown ignorar-lo*
+Al final l'ideal seria: Una persona random fa una pàgina en Notion, li dona a exportar HTML i l'afageix a un repositori de Github. Automàticament aquesta queda amb un bon disseny i linkada a les altres.
 Nota xula: de veritat que estic flipant que funcioni tot tan bé i sigui tan fàcil.
 ## Procés que hauria d'anar fent
 1. Posar un fitxer html senzill
